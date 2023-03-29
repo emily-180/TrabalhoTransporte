@@ -22,10 +22,10 @@ public class Teste {
         System.out.println("Digite o rg do cliente: ");
         cliente1.setRG(input.nextLine());
         
+        System.out.println("************** VIAGENS ***********");
+        for(int i=0; i < lista.size(); i++)
+            lista.get(i).calcularViagem(); //calculando valor das viagens cadastradas
         cliente1.visualizaViagem();
-        viagem1.calcularViagem();
-        viagem2.calcularViagem();
-        //fazer o caucular viagem pra todos
     }
 
 }
