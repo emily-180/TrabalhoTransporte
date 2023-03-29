@@ -5,10 +5,7 @@
  */
 package trasporte;
 
-/**
- *
- * @author 49401027854
- */
+
 public class Trasporte {
 
     /**
